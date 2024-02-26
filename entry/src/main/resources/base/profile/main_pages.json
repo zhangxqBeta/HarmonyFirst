@@ -3,6 +3,8 @@
     "pages/Main",
     "pages/Index",
     "pages/Second",
-    "pages/FirstList"
+    "pages/FirstList",
+    "pages/Layout",
+    "pages/FirstSwiper"
   ]
 }
