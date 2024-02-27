@@ -5,6 +5,8 @@
     "pages/Second",
     "pages/FirstList",
     "pages/Layout",
-    "pages/FirstSwiper"
+    "pages/FirstSwiper",
+    "pages/FirstNavigation",
+    "pages/FirstDialog"
   ]
 }

@@ -63,6 +63,30 @@ struct Main {
           .onClick(() => {
             router.pushUrl({url: "pages/FirstSwiper"})
           })
+
+        Text("Navigation")
+          .fontSize(15)
+          .borderRadius(10)
+          .backgroundColor(0xABCDEF)
+          .margin({top: 10})
+          .textAlign(TextAlign.Center)
+          .width('100%')
+          .height(50)
+          .onClick(() => {
+            router.pushUrl({url: "pages/FirstNavigation"})
+          })
+
+        Text("CustomDialog")
+          .fontSize(15)
+          .borderRadius(10)
+          .backgroundColor(0xABCDEF)
+          .margin({top: 10})
+          .textAlign(TextAlign.Center)
+          .width('100%')
+          .height(50)
+          .onClick(() => {
+            router.pushUrl({url: "pages/FirstDialog"})
+          })
       }
       .width('100%')
       .justifyContent(FlexAlign.Start)
