@@ -87,6 +87,30 @@ struct Main {
           .onClick(() => {
             router.pushUrl({url: "pages/FirstDialog"})
           })
+
+        Text("FirstMedia")
+          .fontSize(15)
+          .borderRadius(10)
+          .backgroundColor(0xABCDEF)
+          .margin({top: 10})
+          .textAlign(TextAlign.Center)
+          .width('100%')
+          .height(50)
+          .onClick(() => {
+            router.pushUrl({url: "pages/FirstMedia"})
+          })
+
+        Text("FirstWebView")
+          .fontSize(15)
+          .borderRadius(10)
+          .backgroundColor(0xABCDEF)
+          .margin({top: 10})
+          .textAlign(TextAlign.Center)
+          .width('100%')
+          .height(50)
+          .onClick(() => {
+            router.pushUrl({url: "pages/FirstWebView"})
+          })
       }
       .width('100%')
       .justifyContent(FlexAlign.Start)
